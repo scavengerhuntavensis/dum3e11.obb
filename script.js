@@ -18,6 +18,6 @@ const checkAns = (correct, mainContent, input) => {
         const fiveSeconds = setTimeout(() => {
             mainContent.style.height = 0;
             correct.innerHTML = "Now proceed to where the color of Hufflepuff lies, near the entry, it resides, Underneath the big tree, the key to the end lies.";
-        }, 2000);
+        }, 1000);
     }
 }   
